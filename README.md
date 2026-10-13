@@ -19,7 +19,6 @@ Open `http://localhost:4173`. No package installation or build is required.
 - **`index.html`**: page content, links, experience, skills, project cards, and metadata.
 - **`script.js`**: the `projects` object contains project detail text and links. Also contains the sculpture, filters, menu, dialog, and email-copy behavior.
 - **`styles.css`**: colors, typography, layouts, and breakpoints.
-- **`assets/vasu-ganesa-resume.pdf`**: original résumé retained as a source asset; the focused portfolio does not link to this broader counselor résumé.
 - **`assets/social-card.png`**: social sharing preview; editable vector source is `assets/social-card.svg`.
 
 When adding a project, add its card to `index.html`, its entry to `projects` in `script.js`, and update the All work count. Keep profile links and email synchronized in the footer and project details as applicable.
