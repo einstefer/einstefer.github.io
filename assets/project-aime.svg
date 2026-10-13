@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 430" role="img" aria-labelledby="title desc">
+  <title id="title">Mathematical reasoning, arranged as cards</title>
+  <desc id="desc">Three dark numbered equation cards sit above a three-by-five abstract comparison grid on a lilac field. The illustration displays no performance statistics.</desc>
+  <path fill="#d7c8f5" d="M0 0h720v430H0z"/>
+  <circle cx="25" cy="440" r="180" fill="#c7b3ed"/>
+  <circle cx="709" cy="-15" r="158" fill="none" stroke="#bba3e6" stroke-width="2"/>
+  <circle cx="709" cy="-15" r="123" fill="none" stroke="#bba3e6" stroke-width="2"/>
+  <path d="M54 48h35m-17-17v35M649 363h24m-12-12v24" stroke="#6c45e8" stroke-width="2"/>
+  <g transform="translate(108 82) rotate(-8 86 84)">
+    <rect x="5" y="8" width="164" height="164" rx="12" fill="#b49bdc"/>
+    <rect width="164" height="164" rx="12" fill="#272333"/>
+    <text x="19" y="31" font-family="Arial, sans-serif" font-size="14" fill="#b7a7d2">01 / ALGEBRA</text>
+    <path d="M19 44h126" stroke="#4a415f"/>
+    <text x="82" y="101" text-anchor="middle" font-family="Georgia, serif" font-size="29" font-style="italic" fill="#f5f3eb">x² + y²</text>
+    <path d="M36 122h92" stroke="#d5f66a" stroke-width="3"/>
+    <circle cx="139" cy="141" r="5" fill="#d5f66a"/>
+  </g>
+  <g transform="translate(283 63) rotate(2 86 84)">
+    <rect x="5" y="8" width="164" height="164" rx="12" fill="#b49bdc"/>
+    <rect width="164" height="164" rx="12" fill="#272333"/>
+    <text x="19" y="31" font-family="Arial, sans-serif" font-size="14" fill="#b7a7d2">02 / GEOMETRY</text>
+    <path d="M19 44h126" stroke="#4a415f"/>
+    <path d="m40 125 43-62 43 62Z" stroke="#d5f66a" stroke-width="2" fill="none"/><path d="M83 63v62" stroke="#d5f66a" stroke-width="1.5" stroke-dasharray="4 4"/><path d="M83 114h11v11" fill="none" stroke="#d5f66a" stroke-width="1.5"/>
+    <circle cx="139" cy="141" r="5" fill="#c7a8ff"/>
+  </g>
+  <g transform="translate(459 83) rotate(9 86 84)">
+    <rect x="5" y="8" width="164" height="164" rx="12" fill="#b49bdc"/>
+    <rect width="164" height="164" rx="12" fill="#272333"/>
+    <text x="19" y="31" font-family="Arial, sans-serif" font-size="14" fill="#b7a7d2">03 / SEQUENCES</text>
+    <path d="M19 44h126" stroke="#4a415f"/>
+    <text x="82" y="100" text-anchor="middle" font-family="Georgia, serif" font-size="34" fill="#f5f3eb">Σ aₙ</text>
+    <g fill="#c7a8ff"><rect x="37" y="124" width="12" height="8" rx="2"/><rect x="58" y="118" width="12" height="14" rx="2"/><rect x="79" y="110" width="12" height="22" rx="2"/><rect x="100" y="99" width="12" height="33" rx="2"/></g>
+  </g>
+  <g transform="translate(196 278)">
+    <rect x="-17" y="-16" width="362" height="111" rx="12" fill="#eee7f8" stroke="#b39adf"/>
+    <g fill="#c0aadf"><rect width="56" height="19" rx="4"/><rect x="68" width="56" height="19" rx="4"/><rect x="136" width="56" height="19" rx="4"/><rect x="204" width="56" height="19" rx="4"/><rect x="272" width="56" height="19" rx="4"/><rect y="29" width="56" height="19" rx="4"/><rect x="68" y="29" width="56" height="19" rx="4"/><rect x="136" y="29" width="56" height="19" rx="4"/><rect x="204" y="29" width="56" height="19" rx="4"/><rect x="272" y="29" width="56" height="19" rx="4"/><rect y="58" width="56" height="19" rx="4"/><rect x="68" y="58" width="56" height="19" rx="4"/><rect x="136" y="58" width="56" height="19" rx="4"/><rect x="204" y="58" width="56" height="19" rx="4"/><rect x="272" y="58" width="56" height="19" rx="4"/></g>
+    <g fill="#6c45e8"><rect x="68" width="56" height="19" rx="4"/><rect x="204" width="56" height="19" rx="4"/><rect y="29" width="56" height="19" rx="4"/><rect x="136" y="29" width="56" height="19" rx="4"/><rect x="272" y="29" width="56" height="19" rx="4"/><rect x="68" y="58" width="56" height="19" rx="4"/><rect x="204" y="58" width="56" height="19" rx="4"/></g>
+  </g>
+  <path d="m573 300 20 11-20 11m25-22 20 11-20 11" stroke="#6c45e8" stroke-width="2.5" stroke-linejoin="round" fill="none"/>
+</svg>

@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f3eb">
+  <meta name="description" content="Vasu Ganesa — student developer, researcher, and educator exploring the intersection of AI, mathematics, and useful software.">
+  <meta property="og:title" content="Vasu Ganesa — Math × Code × Curiosity">
+  <meta property="og:description" content="Building useful tools. Asking better questions. Making math more accessible. Explore my projects, research, and work.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://einstefer.github.io/">
+  <meta property="og:image" content="https://einstefer.github.io/assets/social-card.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="canonical" href="https://einstefer.github.io/">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/space-grotesk-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/dm-sans-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+  <title>Vasu Ganesa — Math × Code × Curiosity</title>
+</head>
+<body>
+  <svg class="icon-defs" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"><defs>
+    <symbol id="arrow" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></symbol>
+    <symbol id="arrow-up" viewBox="0 0 24 24"><path d="M6 18 18 6M6 6h12v12"/></symbol>
+    <symbol id="download" viewBox="0 0 24 24"><path d="M12 3v12m-5-5 5 5 5-5M5 16v5h14v-5"/></symbol>
+    <symbol id="github" viewBox="0 0 24 24"><path d="M9 19c-4.3 1.3-4.3-2.2-6-2.7m12 5v-3.5c0-1 .1-1.6-.5-2.2 3.2-.4 6.5-1.6 6.5-7a5.3 5.3 0 0 0-1.4-3.7A5 5 0 0 0 19.5 1S18.3.6 15.4 2.4a13 13 0 0 0-6.8 0C5.7.6 4.5 1 4.5 1a5 5 0 0 0-.1 3.9A5.3 5.3 0 0 0 3 8.6c0 5.4 3.3 6.6 6.5 7-.6.6-.6 1.3-.5 2.2v3.5"/></symbol>
+  </defs></svg>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="wordmark" href="#home" aria-label="Vasu Ganesa, home">vg<span>✳</span></a>
+    <nav aria-label="Main navigation" id="main-nav">
+      <a href="#work">Work</a><a href="#about">About</a><a href="#stack">Stack</a><a href="#journey">Journey</a>
+    </nav>
+    <a class="nav-contact" href="#contact">Let’s talk <svg class="icon"><use href="#arrow-up"/></svg></a>
+    <button class="menu-button" aria-label="Open navigation" aria-expanded="false" aria-controls="main-nav"><span></span><span></span></button>
+  </header>
+
+  <main id="main">
+    <section class="hero section-shell" id="home" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> MATH × CODE × CURIOSITY</p>
+        <h1 id="hero-title">Vasu<br>Ganesa<span class="purple">.</span></h1>
+        <p class="hero-description">I build things, ask questions,<br>and <em>follow the math.</em></p>
+        <p class="hero-subtitle">Student developer, researcher, and educator.<br>Exploring AI. Making learning more accessible.</p>
+        <div class="hero-actions"><a class="button button-dark" href="#work">Explore my work <svg class="icon"><use href="#arrow"/></svg></a><a class="text-link" href="assets/vasu-ganesa-resume.pdf" target="_blank" rel="noopener">Résumé <svg class="icon"><use href="#arrow-up"/></svg></a></div>
+      </div>
+      <div class="hero-art" aria-label="Interactive mathematical sculpture">
+        <div class="art-topline"><span>THE CURIOSITY ENGINE</span><span>FIG. 001</span></div>
+        <canvas id="curiosity-canvas" aria-label="Animated mathematical wireframe sculpture. Use the reshape and motion controls below.">A mathematical wireframe sculpture representing the intersection of math, code, and curiosity.</canvas>
+        <div class="orbit-label orbit-label-one">mathematics <span>↗</span></div>
+        <div class="orbit-label orbit-label-two">artificial intelligence <span>✳</span></div>
+        <div class="orbit-label orbit-label-three">things that help people <span>↗</span></div>
+        <div class="art-bottomline"><span id="shape-name">01 / TORUS KNOT</span><div><button id="reshape" aria-label="Reshape the mathematical sculpture">Reshape ↻</button><button id="motion-toggle" aria-label="Pause sculpture animation" aria-pressed="false">Pause Ⅱ</button></div></div>
+      </div>
+      <div class="hero-foot"><span>American High School · Class of 2027</span><a href="#work">A FEW THINGS I’VE BEEN WORKING ON <span>↓</span></a></div>
+    </section>
+
+    <div class="ticker-viewport"><div class="ticker" aria-label="Developer. Researcher. Math enthusiast. Educator."><div aria-hidden="true">DEVELOPER <span>✳</span> RESEARCHER <span>✳</span> MATH ENTHUSIAST <span>✳</span> EDUCATOR <span>✳</span> ALWAYS CURIOUS <span>✳</span></div></div></div>
+
+    <section class="section-shell work-section" id="work" aria-labelledby="work-title">
+      <div class="section-heading"><div><p class="eyebrow">01 / SELECTED WORK</p><h2 id="work-title">Ideas, put to work<span class="purple">.</span></h2></div><p>From signals in the brain to tabs in a browser.<br>A few ways I turn curiosity into something real.</p></div>
+      <div class="filter-bar" role="group" aria-label="Filter projects"><button class="filter active" data-filter="all" aria-pressed="true">All work <span id="project-count">05</span></button><button class="filter" data-filter="research" aria-pressed="false">Research</button><button class="filter" data-filter="engineering" aria-pressed="false">Engineering</button></div>
+      <p class="sr-only" id="filter-status" aria-live="polite"></p>
+      <div class="projects-grid">
+        <article class="project project-featured" data-category="engineering">
+          <button class="vexta-cover" data-project="vexta" aria-label="Read about Vexta, API integration repair">
+            <span class="vexta-intro"><span class="eyebrow">FEATURED BUILD / PRIVATE BETA</span><span class="vexta-logo">vexta<span>↗</span></span><span class="vexta-tagline">APIs change.<br><em>Keep building.</em></span><span class="vexta-caption">FROM BREAKING CHANGE TO REVIEWABLE FIX.</span></span>
+            <span class="vexta-flow"><span class="flow-top"><i></i><i></i><i></i><span>THE REPAIR LOOP</span></span><span class="flow-line"><b>01</b><span>Detect the API change</span><em>↘</em></span><span class="flow-line"><b>02</b><span>Trace the code impact</span><em>↘</em></span><span class="flow-line"><b>03</b><span>Generate & validate a repair</span><em>↘</em></span><span class="flow-line"><b>04</b><span>Open a pull request</span><em>↗</em></span><span class="flow-foot">Your review. Your merge. <span>●</span></span></span>
+            <span class="project-open" aria-hidden="true">↗</span>
+          </button>
+          <div class="featured-description"><div><div class="project-meta"><span>VEXTA / DEVELOPER TOOLS</span></div><h3><button data-project="vexta">API changes, repaired.</button></h3></div><div><p>Monitors API changes, traces their impact into TypeScript and JavaScript integrations, validates repairs in isolated sandboxes, and opens pull requests for review.</p><div class="tags"><span>TypeScript</span><span>API monitoring</span><span>GitHub integration</span></div></div></div>
+        </article>
+        <article class="project" data-category="research">
+          <button class="project-cover eeg-cover" data-project="eeg" aria-label="Read about P300 EEG research"><img src="assets/project-eeg.svg" width="720" height="430" alt="Abstract EEG signal traces and a subject matrix" loading="lazy"><span class="cover-label">RESEARCH / MACHINE LEARNING</span><span class="project-open" aria-hidden="true">↗</span></button>
+          <div class="project-meta"><span>UC DAVIS · 2026</span><span class="project-status">IEEE PAPER ACCEPTED</span></div>
+          <h3><button data-project="eeg">Finding the signal.</button></h3><p>Comparing 11 machine learning methods across 110 subjects to better understand P300 EEG classification.</p><div class="tags"><span>Machine learning</span><span>EEG / BCI</span><span>Statistical learning</span></div>
+        </article>
+        <article class="project" data-category="engineering">
+          <button class="project-cover" data-project="tracetree" aria-label="Read about TraceTree"><img src="assets/project-tracetree.svg" width="720" height="430" alt="Connected browser cards branching into a research tree" loading="lazy"><span class="cover-label">BUILD / CHROME EXTENSION</span><span class="project-open" aria-hidden="true">↗</span></button>
+          <div class="project-meta"><span>TRACETREE</span><span>OPEN SOURCE</span></div>
+          <h3><button data-project="tracetree">Keep the thread.</button></h3><p>A Chrome extension that turns online research into persistent browsing trees. Less lost context, more connected thinking.</p><div class="tags"><span>React</span><span>TypeScript</span><span>Chrome APIs</span></div>
+        </article>
+        <article class="project" data-category="research">
+          <button class="project-cover" data-project="aime" aria-label="Read about LLM math research"><img src="assets/project-aime.svg" width="720" height="430" alt="Mathematical notation and a grid representing three models and five prompting styles" loading="lazy"><span class="cover-label">RESEARCH / LLM REASONING</span><span class="project-open" aria-hidden="true">↗</span></button>
+          <div class="project-meta"><span>PUBLISHED IN JEI · 2026</span><span>3 MODELS × 5 STRATEGIES</span></div>
+          <h3><button data-project="aime">Does the prompt matter?</button></h3><p>Testing how five prompting styles affect LLM accuracy on 60 AIME problems—with statistical tests, not guesswork.</p><div class="tags"><span>Python</span><span>NumPy</span><span>statsmodels</span></div>
+        </article>
+        <article class="project" data-category="engineering">
+          <button class="project-cover" data-project="games" aria-label="Read about Lift and Shift games"><img src="assets/project-games.svg" width="720" height="430" alt="Playful orange composition with a snake path, checkerboard, and tic-tac-toe shapes" loading="lazy"><span class="cover-label">BUILD / GAMES FOR GOOD</span><span class="project-open" aria-hidden="true">↗</span></button>
+          <div class="project-meta"><span>LIFT & SHIFT</span><span class="live-label"><i></i> LIVE</span></div>
+          <h3><button data-project="games">A little play. A real purpose.</button></h3><p>Five interactive web games built through my internship, plus work on a cross-platform equine veterinary app launched on Google Play.</p><div class="tags"><span>JavaScript</span><span>HTML / CSS</span><span>Cloudflare Workers</span></div>
+        </article>
+      </div>
+      <div class="work-bottom"><p>Check my hackathon projects at <a href="https://devpost.com/einstefer" target="_blank" rel="noopener">Devpost ↗</a></p><div><a class="text-link" href="https://github.com/einstefer" target="_blank" rel="noopener">More on GitHub <svg class="icon"><use href="#arrow-up"/></svg></a></div></div>
+    </section>
+
+    <section class="about-section" id="about" aria-labelledby="about-title"><div class="section-shell about-layout">
+      <div class="about-intro"><p class="eyebrow">02 / THE PERSON BEHIND THE PROJECTS</p><h2 id="about-title">The best part?<br>There’s always<br><span class="lime">more to learn.</span></h2><div class="about-symbol" aria-hidden="true">✳</div></div>
+      <div class="about-copy"><p class="large-copy">I like the moment when an abstract idea becomes something someone can actually use.</p><p>That’s what connects my work in AI, math, and education. I build educational software at MIT CSAIL’s Kellis Lab, investigate machine learning methods for brain-computer interfaces with UC Davis, and study how language models handle competition math.</p><p>I also spend a lot of time teaching. As student CEO of Micro Lessons Academy, a MathCounts coach, and my school’s Math Club president, I help students find their own way into the subject.</p><p class="about-signoff">Build something. Learn something. Pass it on.</p><div class="about-stats"><div><strong>3×</strong><span>AIME qualifier</span></div><div><strong>11</strong><span>ML methods evaluated</span></div><div><strong>3</strong><span>states reached by math camp</span></div></div></div>
+    </div></section>
+
+    <section class="section-shell stack-section" id="stack" aria-labelledby="stack-title"><div class="section-heading"><div><p class="eyebrow">03 / MY TOOLKIT</p><h2 id="stack-title">Built with a bit of everything<span class="purple">.</span></h2></div><p>The languages, frameworks, and tools<br>I use to get from an idea to a working thing.</p></div>
+      <div class="stack-grid">
+        <div class="stack-group"><span class="stack-icon">&lt;/&gt;</span><h3>Languages</h3><div class="stack-items"><span><i class="yellow-dot"></i>Python</span><span><i class="blue-dot"></i>TypeScript</span><span><i class="yellow-dot"></i>JavaScript</span><span><i class="orange-dot"></i>HTML & CSS</span><span><i class="purple-dot"></i>SQL</span></div></div>
+        <div class="stack-group"><span class="stack-icon">{ }</span><h3>Web & backend</h3><div class="stack-items"><span>React</span><span>Node.js</span><span>Express</span><span>Fastify</span><span>PostgreSQL</span><span>Cloudflare Workers</span><span>Chrome Extension APIs</span><span>WXT</span></div></div>
+        <div class="stack-group"><span class="stack-icon">∑</span><h3>AI & data</h3><div class="stack-items"><span>PyTorch</span><span>scikit-learn</span><span>pandas</span><span>NumPy</span><span>statsmodels</span><span>matplotlib</span><span>Jupyter</span><span>OpenAI SDK</span><span>LLM evaluation</span><span>Statistical learning</span><span>Deep learning</span><span>Dimensionality reduction</span><span>Data visualization</span></div></div>
+        <div class="stack-group"><span class="stack-icon">⌘</span><h3>Developer tools</h3><div class="stack-items"><span>Git & GitHub</span><span>Vite</span><span>Vitest</span><span>Testing Library</span><span>Playwright</span><span>Zod</span><span>Wrangler</span></div></div>
+      </div>
+      <div class="stack-note"><span class="purple">✳</span><p>The stack changes. The habit of figuring things out stays.</p></div>
+    </section>
+
+    <section class="section-shell journey-section" id="journey" aria-labelledby="journey-title"><div class="section-heading"><div><p class="eyebrow">04 / THE JOURNEY SO FAR</p><h2 id="journey-title">A few places I’ve grown<span class="purple">.</span></h2></div><a class="text-link" href="assets/vasu-ganesa-resume.pdf" download>Download résumé <svg class="icon"><use href="#download"/></svg></a></div>
+      <div class="timeline">
+        <details open><summary><span class="timeline-date">JUN 2026 — PRESENT</span><span class="timeline-name"><strong>MIT CSAIL · Kellis Lab</strong><span>Full Stack Machine Learning Engineer</span></span><span class="timeline-type">ENGINEERING</span><span class="details-icon" aria-hidden="true"></span></summary><div class="timeline-body"><p>Developed eight features across Mantis AI and MantisGPT, AI-powered educational data exploration tools.</p><ul><li>Built multi-file CSV/XLSX ingestion and enhanced data visualizations.</li><li>Improved UI/UX and performance for educational data analysis.</li></ul></div></details>
+        <details><summary><span class="timeline-date">APR 2026 — PRESENT</span><span class="timeline-name"><strong>UC Davis · Department of Statistics</strong><span>Research Assistant to Dr. Xiucai Ding</span></span><span class="timeline-type">RESEARCH</span><span class="details-icon" aria-hidden="true"></span></summary><div class="timeline-body"><p>Analyzed high-dimensional biomedical and EEG datasets for a brain-computer interface project supported by an NSF grant and a UC Davis medical team.</p><ul><li>Evaluated 11 machine learning methods for P300 EEG classification across 110 subjects.</li><li>Applied statistical learning, dimensionality reduction, and deep learning.</li><li>Sole-author paper accepted to IEEE ICIIBMS 2026.</li></ul></div></details>
+        <details><summary><span class="timeline-date">APR 2026 — PRESENT</span><span class="timeline-name"><strong>George Mason University</strong><span>Research Assistant to Dr. Padmanabhan Seshaiyer</span></span><span class="timeline-type">RESEARCH</span><span class="details-icon" aria-hidden="true"></span></summary><div class="timeline-body"><p>Researching mathematical modeling approaches connected to UN Sustainable Development Goal 4: Quality Education, with a focus on mathematics education.</p><p>Exploring how applied models can improve access, equity, and learning outcomes.</p></div></details>
+        <details><summary><span class="timeline-date">APR 2026 — PRESENT</span><span class="timeline-name"><strong>Gnosis Learning Inc.</strong><span>AI & Data Analysis Intern</span></span><span class="timeline-type">ENGINEERING</span><span class="details-icon" aria-hidden="true"></span></summary><div class="timeline-body"><p>Contributing to an AI-powered platform for personalized AP and K–12 learning, with intelligent eBooks, adaptive study tools, and interactive AI tutoring.</p><p>Developed software to analyze learner engagement, content effectiveness, and platform performance.</p></div></details>
+        <details><summary><span class="timeline-date">JUN 2025 — PRESENT</span><span class="timeline-name"><strong>Lift & Shift</strong><span>Full Stack Web Development Intern</span></span><span class="timeline-type">ENGINEERING</span><span class="details-icon" aria-hidden="true"></span></summary><div class="timeline-body"><p>Developed the foundation’s games website and implemented five interactive games using Python, JavaScript, HTML, and CSS.</p><p>Developed and launched a cross-platform equine veterinary management app on Google Play.</p><a class="text-link" href="https://games.weliftandshift.org/" target="_blank" rel="noopener">Play the games ↗</a></div></details>
+        <details><summary><span class="timeline-date">DEC 2024 — PRESENT</span><span class="timeline-name"><strong>LLMs & Mathematical Reasoning</strong><span>Research with Lars Holdijk, Oxford PhD student</span></span><span class="timeline-type">RESEARCH</span><span class="details-icon" aria-hidden="true"></span></summary><div class="timeline-body"><p>Studied three LLMs, five prompting strategies, and 60 AIME problems. Built Python evaluation pipelines and analyzed results with Cochran’s Q and McNemar’s tests, including multiple-comparison correction.</p><p>Co-authored “Evaluating the impact of prompting styles on LLM accuracy for AIME math questions,” published in the Journal of Emerging Investigators on July 26, 2026.</p><a class="text-link" href="https://emerginginvestigators.org/articles/25-137" target="_blank" rel="noopener">Read the paper ↗</a></div></details>
+      </div>
+    </section>
+
+    <section class="community-section"><div class="section-shell"><div class="section-heading"><div><p class="eyebrow">05 / PASSING IT ON</p><h2>Math is better together<span class="purple">.</span></h2></div><p>Teaching, mentoring, and making room<br>for the next curious person.</p></div>
+      <div class="community-grid">
+        <article class="community-card camp-card"><span class="community-number">01</span><p class="eyebrow">AUG 2023 — PRESENT</p><h3>Micro Lessons<br>Academy</h3><p class="community-role">Math Tutor → Student CEO</p><p>From volunteer tutoring to leading outreach, curriculum, and recruitment. Created the first Summer Math Camp, reaching approximately 46 students across California, Oregon, and Washington.</p><p>Led weekly AMC 8 preparation for 50 regular attendees; reached out to approximately 27 libraries by phone and 235 by email.</p><div class="community-metric"><strong>3 states.</strong><span>One shared curiosity.</span></div></article>
+        <article class="community-card"><span class="community-number">02</span><p class="eyebrow">JAN 2023 — PRESENT</p><h3>Thornton Junior High</h3><p class="community-role">MathCounts Volunteer Coach</p><p>Helped coach 40 students selected from 275 sign-ups and 261 screening participants. Fourteen advanced to the Fremont Chapter Competition, earning three top-10 individual finishes among 70+ competitors.</p><p>Coached the four-person team to second place at the chapter competition—and the school’s first state qualification.</p><div class="community-metric"><strong>First-ever.</strong><span>State qualification for Thornton.</span></div></article>
+        <article class="community-card"><span class="community-number">03</span><p class="eyebrow">AUG 2023 — PRESENT</p><h3>American High School</h3><p class="community-role">Math Club President</p><p>Created weekly lessons, slides, and practice materials for 50+ students. Managed BMT and SMT preparation and contest logistics involving 100 attendees.</p><p>Organized events and outreach to grow the school’s competition math community.</p></article>
+        <article class="community-card library-card"><span class="community-number">04</span><p class="eyebrow">AUG 2024 — PRESENT</p><h3>Hayward Library</h3><p class="community-role">Volunteer Math Tutor</p><p>Weekly, free middle-school math support: homework help, foundational skills, and problem-solving. Supported 300+ students through recurring library tutoring sessions.</p><div class="community-metric"><strong>Open doors.</strong><span>Accessible math support.</span></div></article>
+      </div>
+    </div></section>
+
+    <section class="section-shell education-section" aria-labelledby="education-title"><div class="education-block"><p class="eyebrow">06 / FOUNDATIONS</p><h2 id="education-title">Always a student<span class="purple">.</span></h2><h3>American High School</h3><p>Class of 2027 · <strong>3.97</strong> unweighted GPA</p><div class="course"><span>01</span><div><strong>Multivariable Calculus</strong><p>Mission College · Completed with an A</p></div></div><div class="course"><span>02</span><div><strong>Linear Algebra</strong><p>West Valley College · In progress</p></div></div><div class="test-scores"><span>SAT <strong>1540</strong><small>/ 1600 · 800 Math</small></span><span>PSAT <strong>1510</strong><small>/ 1520 · 760 Math</small></span></div></div>
+      <div class="honors-block"><p class="eyebrow">A FEW MILESTONES</p><div class="honor-feature"><span aria-hidden="true">✳</span><div><h3>USAJMO Qualifier</h3><p>United States of America Junior Mathematical Olympiad</p></div></div><div class="honor-row"><span>AMC 10 A & B</span><strong>Distinguished Honor Roll <small>Top 1%</small></strong></div><div class="honor-row"><span>AMC 12 A & B</span><strong>Honor Roll <small>Top 5%</small></strong></div><div class="honor-row"><span>AIME</span><strong>3× Qualifier</strong></div><div class="honor-row"><span>IEEE ICIIBMS 2026</span><strong>Sole-author paper accepted</strong></div><div class="honor-row"><span>Journal of Emerging Investigators</span><a href="https://emerginginvestigators.org/articles/25-137" target="_blank" rel="noopener">Published research ↗</a></div></div>
+    </section>
+
+    <section class="contact-section" id="contact" aria-labelledby="contact-title"><div class="section-shell"><p class="eyebrow"><span class="status-dot"></span> GOT A QUESTION, AN IDEA, OR A GOOD MATH PROBLEM?</p><div class="contact-main"><h2 id="contact-title">Let’s make<br><span>something</span> click.</h2><a class="contact-arrow" href="mailto:einstefer@gmail.com" aria-label="Email Vasu Ganesa"><svg class="icon"><use href="#arrow-up"/></svg></a></div><div class="contact-bottom"><div class="email-group"><a href="mailto:einstefer@gmail.com">einstefer@gmail.com</a><button id="copy-email" aria-label="Copy email address">Copy ↗</button><span id="copy-status" role="status" class="sr-only"></span></div><div class="social-links"><a href="https://github.com/einstefer" target="_blank" rel="noopener">GitHub ↗</a><a href="https://www.linkedin.com/in/vasuganesa" target="_blank" rel="noopener">LinkedIn ↗</a><a href="https://devpost.com/einstefer" target="_blank" rel="noopener">Devpost ↗</a></div></div></div></section>
+  </main>
+  <footer class="section-shell"><a class="wordmark" href="#home" aria-label="Back to top">vg<span>✳</span></a><p>© <span id="year">2026</span> Vasu Ganesa · Made with curiosity.</p><a href="#home">BACK TO TOP ↑</a></footer>
+  <dialog id="project-dialog" aria-labelledby="dialog-title"><button class="dialog-close" aria-label="Close project details">×</button><div id="dialog-content"></div></dialog>
+  <noscript><style>.project-cover{cursor:default}.menu-button{display:none}.filter-bar{display:none} @media(max-width:760px){#main-nav{display:flex;position:static;width:auto;padding:0;background:none;gap:12px;font-size:12px}.nav-contact{display:none}}</style><p class="noscript-note">Interactive project details need JavaScript. You can still explore the résumé, experience, and project links on GitHub.</p></noscript>
+</body>
+</html>

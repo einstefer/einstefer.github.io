@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 430" role="img" aria-labelledby="title desc">
+  <title id="title">An illustrated field of EEG signals</title>
+  <desc id="desc">Four electric waveforms cross a dark purple field beside an abstract matrix of subjects.</desc>
+  <defs>
+    <linearGradient id="field" x1="0" x2="1" y2="1"><stop stop-color="#211a36"/><stop offset="1" stop-color="#34274e"/></linearGradient>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" fill="none" stroke="#b8a1f4" stroke-opacity=".12"/></pattern>
+    <clipPath id="frame"><rect width="720" height="430" rx="3"/></clipPath>
+  </defs>
+  <g clip-path="url(#frame)">
+    <path fill="url(#field)" d="M0 0h720v430H0z"/>
+    <path fill="url(#grid)" d="M0 0h720v430H0z"/>
+    <circle cx="720" cy="38" r="208" fill="none" stroke="#ac8ff1" stroke-opacity=".12" stroke-width="44"/>
+    <path d="M46 44h28M46 44v28M674 386h-28M674 386v-28" fill="none" stroke="#bda7f4" stroke-width="2"/>
+    <g fill="#c2abea" font-family="Arial, sans-serif" font-size="13" letter-spacing="3"><text x="87" y="58">SIGNAL EXPLORATION</text><text x="87" y="382">EEG / MULTICHANNEL</text></g>
+    <g fill="none" stroke="#c9b3ff" stroke-opacity=".18" stroke-width="1"><path d="M72 137H540M72 203H540M72 269H540M72 335H540"/></g>
+    <g fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="3.5">
+      <path stroke="#c4a5ff" d="M74 137h24l10-10 9 23 10-44 11 63 12-31 12-1 8-20 10 40 9-24 13 4 11-9 12 18 13-31 12 50 12-34 9 6 13-22 9 36 13-17h18l11-10 12 27 10-15 12 5 10-31 10 43 14-31 9 16 11-2 12-12 10 20 12-8h24"/>
+      <path stroke="#d5f66a" d="M74 203h32l10-9 12 17 10-13 11 5h16l10-15 10 32 11-53 10 84 11-57 13 9h26l12-8 12 15 12-13 12 6h17l12-20 10 35 11-23 10 8h19l12-7 11 15 10-10h20l9-14 11 27 10-16h32"/>
+      <path stroke="#9971e8" d="M74 269h22l9-18 11 37 12-21 10 2 10-9 11 27 12-47 9 34 12-5h17l9-15 11 39 11-56 13 37 11-5h18l11-9 11 20 9-10h17l11-24 11 40 11-24 11 8h19l10-14 11 30 11-21h32"/>
+      <path stroke="#f5f3eb" stroke-opacity=".7" d="M74 335h27l11-6 10 12 12-13 12 9 11-2h17l11-16 10 30 11-21 10 7h24l12-9 12 21 11-31 12 18 10 1h25l10-8 11 14 11-7h18l11-10 10 17 12-8h34"/>
+    </g>
+    <path d="M553 91v252" stroke="#c4a5ff" stroke-opacity=".25"/>
+    <g transform="translate(584 106)">
+      <g fill="#46375f"><rect width="23" height="23" rx="4"/><rect y="34" width="23" height="23" rx="4"/><rect y="68" width="23" height="23" rx="4"/><rect y="102" width="23" height="23" rx="4"/><rect y="136" width="23" height="23" rx="4"/><rect y="170" width="23" height="23" rx="4"/><rect x="34" width="23" height="23" rx="4"/><rect x="34" y="34" width="23" height="23" rx="4"/><rect x="34" y="68" width="23" height="23" rx="4"/><rect x="34" y="102" width="23" height="23" rx="4"/><rect x="34" y="136" width="23" height="23" rx="4"/><rect x="34" y="170" width="23" height="23" rx="4"/></g>
+      <g fill="#c4a5ff"><rect y="34" width="23" height="23" rx="4"/><rect x="34" y="102" width="23" height="23" rx="4"/><rect y="170" width="23" height="23" rx="4"/></g>
+      <g fill="#d5f66a"><rect x="34" width="23" height="23" rx="4"/><rect y="102" width="23" height="23" rx="4"/></g>
+    </g>
+    <circle cx="653" cy="54" r="6" fill="#d5f66a"/>
+  </g>
+</svg>

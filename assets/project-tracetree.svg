@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 430" role="img" aria-labelledby="title desc">
+  <title id="title">A branching browser structure</title>
+  <desc id="desc">Purple connectors link an abstract browser frame to a tree of large, legible document nodes.</desc>
+  <defs><pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#d5cfdf"/></pattern></defs>
+  <path fill="#eeeaf7" d="M0 0h720v430H0z"/>
+  <path fill="url(#dots)" d="M0 0h720v430H0z"/>
+  <circle cx="678" cy="404" r="137" fill="#ded5f4"/>
+  <path d="M-30 10 150 10 30 190-150 190Z" fill="#e2dbef"/>
+  <rect x="105" y="53" width="530" height="325" rx="14" fill="#d2c8e8"/>
+  <rect x="91" y="40" width="530" height="325" rx="14" fill="#f5f3eb" stroke="#22211f" stroke-width="2"/>
+  <path d="M92 89h528" stroke="#22211f" stroke-width="2"/>
+  <g fill="#22211f"><circle cx="118" cy="65" r="4"/><circle cx="135" cy="65" r="4"/><circle cx="152" cy="65" r="4"/></g>
+  <rect x="213" y="56" width="280" height="17" rx="8.5" fill="#e7e3e9"/>
+  <path d="m583 60 5 5-5 5" fill="none" stroke="#6c45e8" stroke-width="2"/>
+  <g fill="none" stroke="#6c45e8" stroke-width="2.5" stroke-linejoin="round">
+    <path d="M356 151v30H225v27M356 181h131v27M225 247v25h-47v22M225 272h50v22M487 247v25h-49v22M487 272h49v22"/>
+  </g>
+  <rect x="295" y="110" width="122" height="48" rx="8" fill="#6c45e8"/>
+  <g font-family="Arial, sans-serif" text-anchor="middle" font-size="17" font-weight="600"><text x="356" y="140" fill="#fff">document</text></g>
+  <g fill="#e3daf9" stroke="#6c45e8" stroke-width="2"><rect x="168" y="206" width="114" height="44" rx="7"/><rect x="430" y="206" width="114" height="44" rx="7"/></g>
+  <g font-family="Arial, sans-serif" text-anchor="middle" font-size="17" font-weight="600" fill="#483278"><text x="225" y="234">context</text><text x="487" y="234">structure</text></g>
+  <g stroke="#6c45e8" stroke-width="2"><rect x="147" y="294" width="63" height="40" rx="7" fill="#f5f3eb"/><rect x="243" y="294" width="63" height="40" rx="7" fill="#d5f66a"/><rect x="406" y="294" width="63" height="40" rx="7" fill="#f5f3eb"/><rect x="502" y="294" width="63" height="40" rx="7" fill="#f5f3eb"/></g>
+  <g fill="none" stroke="#6c45e8" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m173 307-7 7 7 7m11-14 7 7-7 7m248-14-7 7 7 7m11-14 7 7-7 7"/><path d="M525 308h18m-18 6h18m-18 6h11"/><path d="m266 314 6 6 12-13"/></g>
+  <g transform="translate(52 265) rotate(-11)"><rect width="57" height="69" rx="7" fill="#d5f66a" stroke="#22211f" stroke-width="2"/><path d="M15 19h28M15 28h22M15 37h28M15 46h15" stroke="#22211f" stroke-width="2"/></g>
+  <g transform="translate(588 129) rotate(13)"><rect width="75" height="75" rx="15" fill="#6c45e8"/><path d="M25 25v25m25-25v25M25 37h25" fill="none" stroke="#f5f3eb" stroke-width="3"/><g fill="#d5f66a"><circle cx="25" cy="25" r="5"/><circle cx="50" cy="25" r="5"/><circle cx="25" cy="50" r="5"/><circle cx="50" cy="50" r="5"/></g></g>
+</svg>

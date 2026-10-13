@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 430" role="img" aria-labelledby="title desc">
+  <title id="title">A playful collection of game motifs</title>
+  <desc id="desc">An isometric checkerboard, a purple snake path, and a tilted tic-tac-toe tile float on a coral field.</desc>
+  <defs><pattern id="checker" width="64" height="64" patternUnits="userSpaceOnUse"><rect width="64" height="64" fill="#f5f3eb"/><path d="M0 0h32v32H0zm32 32h32v32H32z" fill="#e8c1ab"/></pattern></defs>
+  <path fill="#ff835e" d="M0 0h720v430H0z"/>
+  <path d="M0 359 290 191 584 362 466 430H0Z" fill="#f1734f"/>
+  <circle cx="647" cy="54" r="150" fill="#ff9a77"/>
+  <path d="M51 53h29M66 39v29M644 347h25M657 334v25" fill="none" stroke="#b95035" stroke-width="2"/>
+  <g transform="translate(347 46) rotate(11 123 115)">
+    <rect x="7" y="10" width="243" height="225" rx="18" fill="#c86143"/>
+    <rect width="243" height="225" rx="18" fill="#f5f3eb" stroke="#22211f" stroke-width="2"/>
+    <g fill="none" stroke="#d8d1c2" stroke-width="3"><path d="M86 23v179M157 23v179M24 83h195M24 144h195"/></g>
+    <g fill="none" stroke="#6c45e8" stroke-width="8" stroke-linecap="round"><path d="m44 37 23 29m0-29L44 66m64 91 24 29m0-29-24 29m69-54 24 29m0-29-24 29"/></g>
+    <g fill="none" stroke="#22211f" stroke-width="7"><circle cx="121" cy="54" r="17"/><circle cx="55" cy="114" r="17"/><circle cx="186" cy="174" r="17"/></g>
+  </g>
+  <g transform="translate(40 156)">
+    <path d="m0 108 187-108 188 108v20L188 236 0 128Z" fill="#b85439"/>
+    <path d="m0 108 187-108 188 108-187 108Z" fill="#f5f3eb" stroke="#22211f" stroke-width="2"/>
+    <g transform="matrix(.5844 .3375 -.5844 .3375 187 0)"><rect width="320" height="320" fill="url(#checker)"/></g>
+    <path d="m0 108 187-108 188 108-187 108Z" fill="none" stroke="#22211f" stroke-width="2"/>
+    <path d="m188 216 187-108v20L188 236Z" fill="#d3a794" stroke="#22211f" stroke-width="2"/>
+    <path d="M0 108 188 216v20L0 128Z" fill="#f5f3eb" stroke="#22211f" stroke-width="2"/>
+    <path d="m90 110 47-27 47 27 48-28 48 28-47 28-47-28-47 28Z" fill="#322245" opacity=".18"/>
+    <path d="m90 99 47-27 47 27 48-28 48 28" stroke="#473167" stroke-width="29" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <path d="m90 91 47-27 47 27 48-28 48 28" stroke="#6c45e8" stroke-width="27" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <g fill="#f5f3eb"><ellipse cx="277" cy="83" rx="4" ry="3"/><ellipse cx="287" cy="91" rx="4" ry="3"/></g>
+    <g fill="#22211f"><ellipse cx="279" cy="84" rx="1.6" ry="1.6"/><ellipse cx="289" cy="92" rx="1.6" ry="1.6"/></g>
+    <path d="m141 149 25-14 25 14-25 14Z" fill="#bfd851"/><path d="m141 138 25-14 25 14-25 14Z" fill="#d5f66a"/><path d="M141 138v11l25 14v-11Zm25 14v11l25-14v-11Z" fill="#a6bb44"/><path d="m166 124 4-10" stroke="#22211f" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(533 294) rotate(-11)"><rect x="5" y="7" width="72" height="72" rx="16" fill="#cc6042"/><rect width="72" height="72" rx="16" fill="#d5f66a" stroke="#22211f" stroke-width="2"/><g fill="#22211f"><circle cx="21" cy="21" r="5"/><circle cx="51" cy="21" r="5"/><circle cx="36" cy="36" r="5"/><circle cx="21" cy="51" r="5"/><circle cx="51" cy="51" r="5"/></g></g>
+  <g transform="translate(152 56) rotate(-10)"><path d="M0 14 24 0l24 14v28L24 56 0 42Z" fill="#22211f"/><path d="M0 14 24 0l24 14-24 14Z" fill="#d5f66a"/><path d="M24 28v28L0 42V14Z" fill="#6c45e8"/><path d="M24 28v28l24-14V14Z" fill="#4c3199"/></g>
+</svg>
