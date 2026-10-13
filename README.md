@@ -2,7 +2,7 @@
 
 Live site: **https://einstefer.github.io/**
 
-A responsive, buildless portfolio with an interactive mathematical sculpture, filterable project work, project detail dialogs, research and experience, technical stack, community work, education, honors, and a downloadable résumé.
+A responsive, buildless portfolio with an interactive mathematical sculpture, filterable project work, project detail dialogs, technical projects, a dedicated research and publications section, engineering experience, and a verified technical stack. The portfolio emphasizes software building and research for a startup audience.
 
 ## Run locally
 
@@ -19,7 +19,7 @@ Open `http://localhost:4173`. No package installation or build is required.
 - **`index.html`**: page content, links, experience, skills, project cards, and metadata.
 - **`script.js`**: the `projects` object contains project detail text and links. Also contains the sculpture, filters, menu, dialog, and email-copy behavior.
 - **`styles.css`**: colors, typography, layouts, and breakpoints.
-- **`assets/vasu-ganesa-resume.pdf`**: replace with a new résumé using the same filename.
+- **`assets/vasu-ganesa-resume.pdf`**: original résumé retained as a source asset; the focused portfolio does not link to this broader counselor résumé.
 - **`assets/social-card.png`**: social sharing preview; editable vector source is `assets/social-card.svg`.
 
 When adding a project, add its card to `index.html`, its entry to `projects` in `script.js`, and update the All work count. Keep profile links and email synchronized in the footer and project details as applicable.
@@ -32,7 +32,7 @@ Official documentation: [Creating a GitHub Pages site](https://docs.github.com/e
 
 ## Content and design notes
 
-The supplied résumé is the source for education, experience, honors, and volunteering. Present-tense roles and courses reflect that résumé and should be updated as they change. The IEEE paper is described as **accepted**, and the LLM study is described as published. Research with Lars Holdijk is not presented as employment by Oxford.
+The supplied résumé is the source for engineering and research experience. Present-tense roles reflect that résumé and should be updated as they change. Nontechnical volunteering, coaching, school-club roles, test scores, and general education sections are omitted from the site. The IEEE paper is prominently described as **accepted**, and the LLM study is described as published. The [official conference dates](https://www.iciibms.org/important-dates.html) are November 21–24, 2026; no public IEEE Xplore entry was verified on October 12, 2026. Research with Lars Holdijk is not presented as employment by Oxford.
 
 Additional public project sources:
 

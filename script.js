@@ -46,8 +46,8 @@ const projects = {
     links: [['Explore Vexta', 'https://vextaapi.com']]
   },
   eeg: {
-    eyebrow: 'UC DAVIS / MACHINE LEARNING RESEARCH',
-    title: 'Finding the signal in EEG.',
+    eyebrow: 'IEEE ICIIBMS 2026 / SOLE-AUTHOR PAPER ACCEPTED',
+    title: 'P300 EEG classification.',
     image: 'assets/project-eeg.svg',
     paragraphs: [
       'As a research assistant to Dr. Xiucai Ding in the UC Davis Department of Statistics, I analyzed high-dimensional biomedical and EEG datasets for a brain-computer interface project backed by a UC Davis medical team and supported by an NSF grant.',
@@ -55,7 +55,7 @@ const projects = {
       'My sole-author research paper was accepted to IEEE ICIIBMS 2026.'
     ],
     tags: ['P300 EEG', 'Brain-computer interfaces', 'Statistical learning', 'Deep learning'],
-    links: [['View my résumé', 'assets/vasu-ganesa-resume.pdf']]
+    links: [['IEEE ICIIBMS 2026 conference', 'https://www.iciibms.org/']]
   },
   tracetree: {
     eyebrow: 'TRACETREE / CHROME EXTENSION',
@@ -83,7 +83,7 @@ const projects = {
   },
   games: {
     eyebrow: 'LIFT & SHIFT / FULL STACK DEVELOPMENT',
-    title: 'Play, built for a purpose.',
+    title: 'From browser to mobile.',
     image: 'assets/project-games.svg',
     paragraphs: [
       'Through my Full Stack Web Development internship at Lift & Shift, I developed the foundation’s games website and implemented five interactive web games using Python, JavaScript, HTML, and CSS.',
