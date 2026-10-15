@@ -1,1 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80"><rect width="80" height="80" rx="20" fill="#d5f66a"/><text x="40" y="54" text-anchor="middle" font-family="Arial,sans-serif" font-weight="bold" font-size="45" fill="#22211f">vg</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80" fill="none">
+  <title>Vasu Ganesa</title>
+  <rect width="80" height="80" rx="18" fill="#111314"/>
+  <g stroke="#d6f575" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M12 25L23 55L34 25"/>
+    <path d="M65 29C62 26 58 24 53 24C44 24 38 31 38 40C38 49 44 56 53 56C58 56 62 54 66 51V40H55"/>
+  </g>
+</svg>

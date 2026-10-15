@@ -1,0 +1,133 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="600" viewBox="0 0 900 600" fill="none" role="img" aria-labelledby="title description">
+  <title id="title">TraceTree conceptual research map</title>
+  <desc id="description">An original technical illustration of layered browser panels and a branching research tree. A lime path connects Research to Sources and Notes. This is a conceptual diagram, not a product screenshot.</desc>
+  <defs>
+    <linearGradient id="background" x1="100" y1="60" x2="800" y2="600" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1a1e20"/>
+      <stop offset=".56" stop-color="#111314"/>
+      <stop offset="1" stop-color="#17191e"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="0" cy="0" r="1" gradientTransform="translate(500 300) rotate(90) scale(280 450)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#bbb7f8" stop-opacity=".09"/>
+      <stop offset="1" stop-color="#bbb7f8" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="640" y2="420" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#262a2d"/>
+      <stop offset=".36" stop-color="#1a1e20"/>
+      <stop offset="1" stop-color="#151719"/>
+    </linearGradient>
+    <linearGradient id="border" x1="20" y1="0" x2="590" y2="420" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#f2f2e8" stop-opacity=".33"/>
+      <stop offset=".5" stop-color="#bbb7f8" stop-opacity=".14"/>
+      <stop offset="1" stop-color="#bbb7f8" stop-opacity=".3"/>
+    </linearGradient>
+    <linearGradient id="active" x1="35" y1="0" x2="210" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#d6f575" stop-opacity=".14"/>
+      <stop offset="1" stop-color="#d6f575" stop-opacity=".035"/>
+    </linearGradient>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r=".7" fill="#bbb7f8" fill-opacity=".1"/>
+    </pattern>
+    <filter id="shadow" x="-30%" y="-30%" width="170%" height="190%">
+      <feDropShadow dx="-8" dy="20" stdDeviation="18" flood-color="#000" flood-opacity=".38"/>
+    </filter>
+    <filter id="ambient" x="-40%" y="-100%" width="180%" height="300%"><feGaussianBlur stdDeviation="25"/></filter>
+  </defs>
+
+  <rect width="900" height="600" rx="4" fill="url(#background)"/>
+  <rect width="900" height="600" fill="url(#halo)"/>
+  <rect x="35" y="70" width="830" height="470" fill="url(#dots)"/>
+  <ellipse cx="466" cy="505" rx="290" ry="31" fill="#000" fill-opacity=".4" filter="url(#ambient)"/>
+  <g font-family="Arial, Helvetica, sans-serif" font-size="10" letter-spacing="2">
+    <text x="44" y="42" fill="#f2f2e8" fill-opacity=".67">TRACETREE / CONTEXT, CONNECTED</text>
+    <text x="856" y="42" text-anchor="end" fill="#bbb7f8" fill-opacity=".5">CONCEPTUAL INTERFACE</text>
+  </g>
+
+  <g transform="matrix(.97 -.13 .23 .91 96 146)">
+    <rect x="-26" y="36" width="638" height="410" rx="13" fill="#111314" stroke="#bbb7f8" stroke-opacity=".09"/>
+    <path d="M-26 74H612M5 74V446" stroke="#bbb7f8" stroke-opacity=".05"/>
+    <rect x="-13" y="18" width="638" height="410" rx="13" fill="#171a1d" stroke="#bbb7f8" stroke-opacity=".15"/>
+    <path d="M-13 56H625" stroke="#bbb7f8" stroke-opacity=".07"/>
+  </g>
+
+  <g transform="matrix(.97 -.13 .23 .91 96 146)" filter="url(#shadow)">
+    <rect width="638" height="410" rx="13" fill="url(#panel)" stroke="url(#border)"/>
+    <path d="M0 42H638" stroke="#f2f2e8" stroke-opacity=".11"/>
+    <g fill="#f2f2e8" fill-opacity=".24">
+      <circle cx="20" cy="21" r="3"/>
+      <circle cx="32" cy="21" r="3"/>
+      <circle cx="44" cy="21" r="3"/>
+    </g>
+    <rect x="194" y="12" width="250" height="18" rx="5" fill="#111314" fill-opacity=".6" stroke="#f2f2e8" stroke-opacity=".05"/>
+    <path d="M206 18V24M203 21H209" stroke="#bbb7f8" stroke-opacity=".4"/>
+    <path d="M220 21H302" stroke="#f2f2e8" stroke-opacity=".16" stroke-linecap="round" stroke-width="2"/>
+    <path d="M606 16H617V26H606ZM611 16V26" stroke="#f2f2e8" stroke-opacity=".3"/>
+
+    <path d="M233 42V410" stroke="#f2f2e8" stroke-opacity=".1"/>
+    <g font-family="Arial, Helvetica, sans-serif">
+      <g stroke="#d6f575" stroke-width="1.5" stroke-linecap="round">
+        <path d="M23 70V82M23 76H32V87M23 70H32"/>
+        <circle cx="23" cy="69" r="2" fill="#1a1e20"/>
+        <circle cx="32" cy="87" r="2" fill="#1a1e20"/>
+        <circle cx="32" cy="70" r="2" fill="#1a1e20"/>
+      </g>
+      <text x="45" y="80" fill="#f2f2e8" font-size="15" font-weight="600" letter-spacing="-.3">TraceTree</text>
+      <path d="M203 73V81M199 77H207" stroke="#f2f2e8" stroke-opacity=".45" stroke-linecap="round"/>
+      <text x="21" y="111" fill="#f2f2e8" fill-opacity=".33" font-size="8" letter-spacing="1.8">RESEARCH MAP</text>
+
+      <rect x="15" y="127" width="202" height="38" rx="6" fill="url(#active)" stroke="#d6f575" stroke-opacity=".18"/>
+      <circle cx="31" cy="146" r="3" fill="#d6f575"/>
+      <text x="43" y="150" fill="#f2f2e8" font-size="12">Research</text>
+      <path d="M198 143L202 147L198 151" stroke="#d6f575" stroke-opacity=".6"/>
+      <path d="M32 165V253C32 259 37 264 43 264H50M32 193H50" stroke="#d6f575" stroke-opacity=".67" stroke-width="1.2"/>
+      <circle cx="53" cy="193" r="2.5" fill="#d6f575"/>
+      <circle cx="53" cy="264" r="2.5" fill="#bbb7f8" fill-opacity=".6"/>
+      <text x="65" y="197" fill="#f2f2e8" font-size="11">Sources</text>
+      <text x="65" y="268" fill="#f2f2e8" fill-opacity=".6" font-size="11">Notes</text>
+      <path d="M54 205V228H71" stroke="#d6f575" stroke-opacity=".4"/>
+      <rect x="72" y="216" width="133" height="26" rx="4" fill="#d6f575" fill-opacity=".06"/>
+      <path d="M84 224H91V233H84Z" stroke="#d6f575" stroke-opacity=".65"/>
+      <path d="M100 227H172M100 232H148" stroke="#d6f575" stroke-opacity=".32" stroke-linecap="round"/>
+      <path d="M54 276V298H72" stroke="#bbb7f8" stroke-opacity=".23"/>
+      <path d="M82 293H89V302H82Z" stroke="#bbb7f8" stroke-opacity=".35"/>
+      <path d="M98 296H172M98 301H143" stroke="#f2f2e8" stroke-opacity=".16" stroke-linecap="round"/>
+
+      <path d="M18 351H216" stroke="#f2f2e8" stroke-opacity=".08"/>
+      <circle cx="27" cy="375" r="2.5" fill="#d6f575" fill-opacity=".7"/>
+      <text x="39" y="378" fill="#f2f2e8" fill-opacity=".4" font-size="8" letter-spacing=".8">CONTEXT PRESERVED</text>
+
+      <text x="261" y="77" fill="#bbb7f8" fill-opacity=".6" font-size="8" letter-spacing="1.5">RESEARCH / SOURCES</text>
+      <text x="261" y="107" fill="#f2f2e8" font-size="22" font-weight="500" letter-spacing="-.7">Follow the thread.</text>
+      <path d="M261 123H506M261 132H447" stroke="#f2f2e8" stroke-opacity=".17" stroke-width="3" stroke-linecap="round"/>
+
+      <path d="M372 182H398C405 182 409 187 409 194V224C409 231 414 236 421 236H447" stroke="#d6f575" stroke-opacity=".8" stroke-width="1.3"/>
+      <path d="M372 182H390C397 182 401 187 401 194V309C401 316 406 321 413 321H447" stroke="#bbb7f8" stroke-opacity=".3" stroke-width="1.2"/>
+      <path d="M507 268V290" stroke="#d6f575" stroke-opacity=".5" stroke-width="1.2"/>
+
+      <rect x="261" y="160" width="112" height="64" rx="6" fill="#202529" stroke="#bbb7f8" stroke-opacity=".3"/>
+      <rect x="272" y="172" width="14" height="17" rx="2" fill="#bbb7f8" fill-opacity=".1" stroke="#bbb7f8" stroke-opacity=".5"/>
+      <path d="M276 177H282M276 181H282M276 185H280" stroke="#bbb7f8" stroke-opacity=".6" stroke-width=".8"/>
+      <text x="294" y="183" fill="#f2f2e8" font-size="10">Research</text>
+      <path d="M272 201H353M272 209H331" stroke="#f2f2e8" stroke-opacity=".18" stroke-linecap="round" stroke-width="2"/>
+
+      <rect x="447" y="204" width="158" height="64" rx="6" fill="#222a20" stroke="#d6f575" stroke-opacity=".5"/>
+      <circle cx="460" cy="219" r="3" fill="#d6f575"/>
+      <text x="471" y="223" fill="#f2f2e8" font-size="10">Sources</text>
+      <path d="M458 240H585M458 248H556M458 256H573" stroke="#d6f575" stroke-opacity=".24" stroke-linecap="round" stroke-width="2"/>
+      <circle cx="447" cy="236" r="3" fill="#1a1e20" stroke="#d6f575" stroke-width="1.1"/>
+
+      <rect x="447" y="290" width="158" height="64" rx="6" fill="#1b1d23" stroke="#bbb7f8" stroke-opacity=".25"/>
+      <path d="M458 302H468M458 307H465" stroke="#bbb7f8" stroke-opacity=".6" stroke-linecap="round"/>
+      <text x="478" y="308" fill="#f2f2e8" fill-opacity=".75" font-size="10">Notes</text>
+      <path d="M458 326H582M458 334H557M458 342H575" stroke="#bbb7f8" stroke-opacity=".2" stroke-linecap="round" stroke-width="2"/>
+      <circle cx="447" cy="321" r="3" fill="#1a1e20" stroke="#bbb7f8" stroke-opacity=".5"/>
+      <text x="261" y="379" fill="#f2f2e8" fill-opacity=".25" font-size="8" letter-spacing="1.2">EVERY SOURCE HAS A STORY</text>
+    </g>
+  </g>
+
+  <path d="M47 552H853" stroke="#f2f2e8" stroke-opacity=".07"/>
+  <g font-family="Arial, Helvetica, sans-serif" font-size="9" letter-spacing="1.8">
+    <text x="47" y="575" fill="#f2f2e8" fill-opacity=".37">PAGES BECOME PATHS</text>
+    <text x="853" y="575" text-anchor="end" fill="#bbb7f8" fill-opacity=".32">ORIGINAL TECHNICAL ILLUSTRATION</text>
+  </g>
+</svg>

@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="500" viewBox="0 0 900 500" fill="none" role="img" aria-labelledby="title description">
+  <title id="title">An abstract study of EEG signals</title>
+  <desc id="description">Layered lilac and white signal traces on a fine dark grid, with a lime accent at a conceptual P300 response. This is an original scientific illustration, not measured research data.</desc>
+  <defs>
+    <linearGradient id="surface" x1="90" y1="0" x2="810" y2="500" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1a1e20"/>
+      <stop offset=".56" stop-color="#111314"/>
+      <stop offset="1" stop-color="#181b1e"/>
+    </linearGradient>
+    <radialGradient id="haze" cx="0" cy="0" r="1" gradientTransform="translate(505 258) rotate(90) scale(230 350)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#bbb7f8" stop-opacity=".1"/>
+      <stop offset="1" stop-color="#bbb7f8" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="envelope" x1="459" y1="108" x2="459" y2="366" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#bbb7f8" stop-opacity=".34"/>
+      <stop offset=".5" stop-color="#bbb7f8" stop-opacity=".09"/>
+      <stop offset="1" stop-color="#bbb7f8" stop-opacity=".015"/>
+    </linearGradient>
+    <linearGradient id="signal" x1="65" y1="265" x2="840" y2="265" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#bbb7f8" stop-opacity=".2"/>
+      <stop offset=".3" stop-color="#bbb7f8"/>
+      <stop offset=".58" stop-color="#f2f2e8"/>
+      <stop offset=".8" stop-color="#bbb7f8"/>
+      <stop offset="1" stop-color="#bbb7f8" stop-opacity=".2"/>
+    </linearGradient>
+    <pattern id="fine-grid" width="22" height="22" patternUnits="userSpaceOnUse">
+      <path d="M22 0H0V22" stroke="#f2f2e8" stroke-opacity=".035" stroke-width="1"/>
+    </pattern>
+    <pattern id="major-grid" width="110" height="110" patternUnits="userSpaceOnUse">
+      <path d="M110 0H0V110" stroke="#bbb7f8" stroke-opacity=".065" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="grid-fade" x1="0" y1="70" x2="0" y2="430" gradientUnits="userSpaceOnUse">
+      <stop stop-color="white" stop-opacity="0"/>
+      <stop offset=".2" stop-color="white"/>
+      <stop offset=".8" stop-color="white"/>
+      <stop offset="1" stop-color="white" stop-opacity="0"/>
+    </linearGradient>
+    <mask id="fade"><rect width="900" height="500" fill="url(#grid-fade)"/></mask>
+    <clipPath id="plot"><rect x="44" y="82" width="812" height="336"/></clipPath>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="5"/></filter>
+  </defs>
+
+  <rect width="900" height="500" rx="4" fill="url(#surface)"/>
+  <rect width="900" height="500" fill="url(#haze)"/>
+  <g mask="url(#fade)">
+    <rect x="44" y="82" width="812" height="336" fill="url(#fine-grid)"/>
+    <rect x="44" y="82" width="812" height="336" fill="url(#major-grid)"/>
+  </g>
+
+  <g font-family="Arial, Helvetica, sans-serif" font-size="10" letter-spacing="2.1">
+    <text x="48" y="48" fill="#f2f2e8" fill-opacity=".8">SIGNAL / STRUCTURE</text>
+    <text x="852" y="48" text-anchor="end" fill="#bbb7f8" fill-opacity=".65">EEG · CONCEPTUAL STUDY</text>
+  </g>
+  <path d="M48 63H852" stroke="#f2f2e8" stroke-opacity=".08"/>
+
+  <g clip-path="url(#plot)" stroke-linecap="round" stroke-linejoin="round">
+    <g stroke="#f2f2e8" stroke-opacity=".13" stroke-width="1.1">
+      <path d="M44 139C75 140 77 135 91 138S109 144 125 139S143 131 160 136S177 143 191 139S210 134 226 138S243 145 257 140S275 129 291 136S314 150 330 141S352 120 368 136S389 155 405 137S427 104 446 130S467 160 483 138S502 107 519 131S537 148 553 136S577 128 593 137S616 146 637 137S658 131 677 137S694 144 713 138S736 132 753 139S776 145 794 138S820 136 856 139"/>
+      <path d="M44 184C68 182 83 193 101 185S125 174 142 184S165 192 183 181S207 176 225 185S247 196 266 182S288 169 305 183S326 198 346 179S371 160 392 179S416 207 435 179S461 150 480 176S503 197 525 179S550 167 572 181S596 191 617 182S645 174 667 183S694 191 714 182S741 176 762 183S788 191 810 184S838 180 856 183"/>
+      <path d="M44 348C77 349 87 341 103 347S127 355 145 348S170 339 188 347S213 358 232 348S256 336 276 348S300 358 320 345S345 329 365 346S392 371 411 344S438 315 459 340S484 366 506 344S530 329 552 345S578 359 600 347S625 338 646 348S673 357 693 347S718 341 740 347S766 355 789 348S827 345 856 348"/>
+      <path d="M44 390C79 389 91 385 109 389S132 397 150 390S174 383 194 390S217 397 239 390S263 382 283 390S310 399 333 389S358 378 380 389S402 400 425 388S451 377 474 387S499 400 522 389S547 380 570 389S596 397 620 389S645 384 669 390S695 396 717 390S742 384 764 390S807 392 856 389"/>
+    </g>
+    <g stroke="#bbb7f8" stroke-opacity=".29" stroke-width="1.3">
+      <path d="M44 223C69 224 84 217 101 222S125 232 142 223S167 210 187 221S209 235 232 220S252 210 276 221S299 238 320 218S346 188 369 216S396 252 418 216S443 169 465 207S492 244 514 214S540 191 561 213S587 235 611 221S640 209 662 221S686 231 709 222S735 213 756 222S785 232 807 222S837 219 856 223"/>
+      <path d="M44 308C77 309 89 303 106 308S132 318 152 308S176 294 199 306S224 323 246 307S272 290 294 305S318 330 341 307S368 275 390 302S416 345 439 307S466 259 488 294S516 334 539 305S566 282 589 304S617 322 642 309S667 298 690 308S716 319 739 310S765 302 789 309S829 310 856 308"/>
+    </g>
+
+    <path d="M58 270C103 262 134 268 171 263S234 253 267 263S318 271 350 250S388 291 415 241S450 234 470 179S490 100 512 108S542 168 563 224S587 253 611 244S657 268 691 260S760 266 843 264L843 285C760 289 732 282 691 288S636 286 611 275S584 293 563 275S530 155 512 153S491 173 470 218S439 270 415 282S379 329 350 287S304 298 267 285S214 294 171 286S103 289 58 284Z" fill="url(#envelope)"/>
+
+    <path d="M58 276C83 278 94 268 109 274S132 284 148 274S170 263 190 274S214 286 235 271S257 257 278 272S300 289 321 269S345 247 364 274S387 310 408 270S434 226 451 252S478 144 501 128S525 166 544 232S571 288 592 262S620 256 640 269S667 285 689 272S716 261 738 273S766 284 787 273S820 272 843 275" stroke="#bbb7f8" stroke-opacity=".13" stroke-width="7" filter="url(#glow)"/>
+    <path d="M58 276C83 278 94 268 109 274S132 284 148 274S170 263 190 274S214 286 235 271S257 257 278 272S300 289 321 269S345 247 364 274S387 310 408 270S434 226 451 252S478 144 501 128S525 166 544 232S571 288 592 262S620 256 640 269S667 285 689 272S716 261 738 273S766 284 787 273S820 272 843 275" stroke="url(#signal)" stroke-width="2"/>
+    <path d="M451 252C468 278 478 144 501 128S525 166 544 232" stroke="#d6f575" stroke-width="2.5"/>
+  </g>
+
+  <path d="M503 138V404" stroke="#d6f575" stroke-opacity=".22" stroke-dasharray="2 7"/>
+  <circle cx="503" cy="128" r="11" stroke="#d6f575" stroke-opacity=".15"/>
+  <circle cx="503" cy="128" r="4" fill="#111314" stroke="#d6f575" stroke-width="1.5"/>
+  <path d="M515 119L539 95H594" stroke="#d6f575" stroke-opacity=".5"/>
+  <text x="548" y="86" fill="#d6f575" font-family="Arial, Helvetica, sans-serif" font-size="11" letter-spacing="2">P300</text>
+
+  <path d="M48 438H852" stroke="#f2f2e8" stroke-opacity=".08"/>
+  <g font-family="Arial, Helvetica, sans-serif" font-size="9" letter-spacing="1.8">
+    <circle cx="52" cy="462" r="3" fill="#d6f575"/>
+    <text x="66" y="465" fill="#f2f2e8" fill-opacity=".55">PATTERNS IN THE SIGNAL</text>
+    <text x="852" y="465" text-anchor="end" fill="#f2f2e8" fill-opacity=".3">ABSTRACT VISUALIZATION / NOT MEASURED DATA</text>
+  </g>
+</svg>

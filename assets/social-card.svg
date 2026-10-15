@@ -1,1 +1,52 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630"><rect width="1200" height="630" fill="#f5f3eb"/><path d="M60 97H1140" stroke="#d7d5cd"/><text x="60" y="72" font-family="Arial,sans-serif" font-size="42" font-weight="700" letter-spacing="-3" fill="#22211f">vg<tspan fill="#6c45e8">✳</tspan></text><text x="60" y="166" font-family="Arial,sans-serif" font-size="14" font-weight="700" letter-spacing="3" fill="#6c45e8">AI × SOFTWARE × RESEARCH</text><text x="55" y="298" font-family="Arial,sans-serif" font-size="123" font-weight="700" letter-spacing="-7" fill="#22211f">Vasu</text><text x="55" y="415" font-family="Arial,sans-serif" font-size="123" font-weight="700" letter-spacing="-7" fill="#22211f">Ganesa<tspan fill="#6c45e8">.</tspan></text><text x="62" y="474" font-family="Arial,sans-serif" font-size="22" fill="#66645f">Software builder. AI researcher.</text><rect x="699" y="138" width="440" height="366" rx="8" fill="#242039"/><g fill="none" stroke="#b9a0ff" stroke-width="1.2"><ellipse cx="919" cy="320" rx="178" ry="74" transform="rotate(-35 919 320)"/><ellipse cx="919" cy="320" rx="178" ry="84" transform="rotate(-28 919 320)"/><ellipse cx="919" cy="320" rx="178" ry="94" transform="rotate(-21 919 320)"/><ellipse cx="919" cy="320" rx="178" ry="104" transform="rotate(-14 919 320)"/><ellipse cx="919" cy="320" rx="178" ry="114" transform="rotate(-7 919 320)"/><ellipse cx="919" cy="320" rx="178" ry="124"/><ellipse cx="919" cy="320" rx="178" ry="114" transform="rotate(7 919 320)"/><ellipse cx="919" cy="320" rx="178" ry="104" transform="rotate(14 919 320)"/><ellipse cx="919" cy="320" rx="178" ry="94" transform="rotate(21 919 320)"/><ellipse cx="919" cy="320" rx="178" ry="84" transform="rotate(28 919 320)"/><ellipse cx="919" cy="320" rx="178" ry="74" transform="rotate(35 919 320)"/></g><g fill="none" stroke="#d5f66a" stroke-width="1"><ellipse cx="919" cy="320" rx="166" ry="75" transform="rotate(65 919 320)"/><ellipse cx="919" cy="320" rx="166" ry="86" transform="rotate(70 919 320)"/><ellipse cx="919" cy="320" rx="166" ry="95" transform="rotate(75 919 320)"/></g><rect y="558" width="1200" height="72" fill="#d5f66a"/><text x="61" y="604" font-family="Arial,sans-serif" font-size="20" font-weight="600" fill="#22211f">einstefer.github.io</text><text x="945" y="604" font-family="Arial,sans-serif" font-size="16" fill="#22211f">BUILD. TEST. SHIP. ↗</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">Vasu Ganesa — Ideas into systems</title>
+  <desc id="desc">Software builder and AI researcher. Dark editorial card with a lime and lilac connected geometric structure.</desc>
+  <defs>
+    <radialGradient id="halo" cx="0" cy="0" r="1" gradientTransform="translate(928 310) rotate(90) scale(306 302)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#bbb7f8" stop-opacity=".09"/><stop offset="1" stop-color="#bbb7f8" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="plane" x1="783" y1="150" x2="1080" y2="477" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#bbb7f8" stop-opacity=".14"/><stop offset="1" stop-color="#bbb7f8" stop-opacity=".015"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="758" y1="139" x2="1092" y2="498" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#f2f2e8" stop-opacity=".8"/><stop offset=".45" stop-color="#bbb7f8" stop-opacity=".65"/><stop offset="1" stop-color="#bbb7f8" stop-opacity=".18"/>
+    </linearGradient>
+    <pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".6" fill="#bbb7f8" fill-opacity=".1"/></pattern>
+  </defs>
+  <rect width="1200" height="630" fill="#111314"/>
+  <rect x="650" width="550" height="630" fill="url(#dots)"/>
+  <rect width="1200" height="630" fill="url(#halo)"/>
+  <g transform="translate(67 47)" stroke="#d6f575" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M0 4L8 25L16 4"/><path d="M38 7C35 3 28 2 24 6C19 10 19 19 24 23C28 27 35 26 39 22V15H31"/>
+  </g>
+  <path d="M68 100H1132" stroke="#f2f2e8" stroke-opacity=".12"/>
+  <text x="1132" y="68" text-anchor="end" fill="#f2f2e8" fill-opacity=".4" font-family="Arial, Helvetica, sans-serif" font-size="12" letter-spacing="2">BUILD / RESEARCH / REPEAT</text>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="68" y="178" fill="#bbb7f8" font-size="13" font-weight="600" letter-spacing="2.9">SOFTWARE BUILDER &amp; AI RESEARCHER</text>
+    <text x="63" y="279" fill="#f2f2e8" font-size="78" font-weight="600" letter-spacing="-4.4">Vasu Ganesa</text>
+    <text x="67" y="362" fill="#f2f2e8" font-size="43" font-weight="400" letter-spacing="-1.8">Ideas into <tspan fill="#d6f575">systems</tspan></text>
+    <path d="M70 410H115" stroke="#d6f575" stroke-width="2"/>
+  </g>
+  <g stroke-linejoin="round">
+    <path d="M774 206L947 135L1100 244L927 315Z" fill="url(#plane)"/>
+    <path d="M774 206L927 315L917 499L764 390Z" fill="#bbb7f8" fill-opacity=".025"/>
+    <path d="M927 315L1100 244L1090 428L917 499Z" fill="#bbb7f8" fill-opacity=".04"/>
+    <path d="M774 206L947 135L1100 244L1090 428L917 499L764 390L774 206L927 315L1100 244M927 315L917 499" stroke="url(#edge)" stroke-width="1.5"/>
+    <path d="M947 135L937 319L764 390M937 319L1090 428" stroke="#bbb7f8" stroke-opacity=".23" stroke-width="1.2" stroke-dasharray="3 7"/>
+    <path d="M774 206L1090 428M947 135L917 499M1100 244L764 390" stroke="#bbb7f8" stroke-opacity=".16"/>
+    <path d="M816 233L946 181L1060 262L930 315Z" stroke="#bbb7f8" stroke-opacity=".2"/>
+    <path d="M814 279L944 227L1058 308L928 361Z" stroke="#bbb7f8" stroke-opacity=".16"/>
+    <path d="M812 325L942 273L1056 354L926 407Z" stroke="#bbb7f8" stroke-opacity=".12"/>
+    <path d="M810 371L940 319L1054 400L924 453Z" stroke="#bbb7f8" stroke-opacity=".09"/>
+    <path d="M774 206L927 315L1090 428" stroke="#d6f575" stroke-width="2"/>
+    <path d="M927 315L917 499" stroke="#d6f575" stroke-opacity=".55" stroke-width="1.5"/>
+    <g fill="#111314" stroke="#bbb7f8" stroke-width="1.5"><circle cx="947" cy="135" r="4"/><circle cx="1100" cy="244" r="4"/><circle cx="764" cy="390" r="4"/></g>
+    <g fill="#d6f575"><circle cx="774" cy="206" r="4"/><circle cx="1090" cy="428" r="4"/><circle cx="917" cy="499" r="4"/><circle cx="927" cy="315" r="6"/></g>
+    <circle cx="927" cy="315" r="16" stroke="#d6f575" stroke-opacity=".15"/><circle cx="927" cy="315" r="25" stroke="#d6f575" stroke-opacity=".06"/>
+  </g>
+  <path d="M68 548H1132" stroke="#f2f2e8" stroke-opacity=".12"/>
+  <g font-family="Arial, Helvetica, sans-serif" font-size="13" letter-spacing="1.3">
+    <text x="68" y="585" fill="#f2f2e8" fill-opacity=".5">EINSTEFER.GITHUB.IO</text>
+    <text x="1132" y="585" text-anchor="end" fill="#bbb7f8" fill-opacity=".65">SOFTWARE × APPLIED AI</text>
+  </g>
+</svg>
